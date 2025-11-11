@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WebTools Hub — Discover web-building tools</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark">
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-left">
+      <!-- SVG logo + text -->
+      <a href="index.html" class="brand">
+        <!-- dark-mode friendly SVG icon -->
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" class="logo-svg" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="21" height="21" rx="6" fill="#0b1220"/>
+          <path d="M7 12h10M12 7v10" stroke="#9aa6b2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-text">WebTools Hub</span>
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <a href="catalog.html">Catalog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="cta" href="catalog.html">Explore tools</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <h1>Find the perfect tools to build websites — <span class="accent">no code required</span> or code it your way.</h1>
+        <p class="lead">
+          Curated catalog of modern website builders, design & prototyping tools, editors, frameworks, hosting and AI-assisted creators — compare, learn, decide.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="catalog.html">Explore the Catalog</a>
+          <a class="btn btn-outline" href="#how">How it works</a>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature">
+            <div class="icon">⚡</div>
+            <div>
+              <div class="f-title">Fast discovery</div>
+              <div class="f-desc">Search & filter the best tools for your skill level.</div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">🔍</div>
+            <div>
+              <div class="f-title">Compare</div>
+              <div class="f-desc">Side-by-side comparisons and case studies.</div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">🧰</div>
+            <div>
+              <div class="f-title">Guides</div>
+              <div class="f-desc">Step-by-step getting started instructions.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card-hero">
+          <div class="card-head">
+            <div>
+              <div class="small">Featured</div>
+              <div class="card-title">Webflow — Visual Builder</div>
+            </div>
+            <div class="pill">Intermediate</div>
+          </div>
+          <p class="card-desc">Designer-first website builder with CMS, animations and exportable clean code. Great for marketing sites.</p>
+          <div class="card-meta">Use case: marketing • Pricing: Paid</div>
+          <div class="card-actions">
+            <a href="catalog.html#webflow" class="btn btn-sm">View</a>
+            <a href="https://webflow.com" target="_blank" class="btn btn-sm btn-outline">Official</a>
+          </div>
+        </div>
+
+        <div class="card-hero small">
+          <div class="card-head">
+            <div>
+              <div class="small">Editor</div>
+              <div class="card-title">VS Code</div>
+            </div>
+            <div class="pill">Advanced</div>
+          </div>
+          <p class="card-desc">Extensible code editor with Live Share and many integrations for developers.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="container section">
+    <h2 class="section-title">How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Search & Filter</h3>
+        <p>Use tags, skill level and pricing to find tools matching your needs.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Read details & case studies</h3>
+        <p>Open tool pages to review pros, cons, integrations and real examples.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Compare & choose</h3>
+        <p>Select multiple tools to compare features side-by-side and make a fast decision.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED LIST -->
+  <section class="container section">
+    <h2 class="section-title">Featured tools</h2>
+    <div class="grid-featured">
+      <article class="tool-card">
+        <div class="tool-head">
+          <div class="tool-name">Figma</div>
+          <div class="tool-pill">Design</div>
+        </div>
+        <p class="tool-desc">Cloud-native UI design for teams — real-time collaboration and component libraries.</p>
+        <div class="tool-actions"><a class="btn btn-outline" href="catalog.html#figma">View</a></div>
+      </article>
+
+      <article class="tool-card">
+        <div class="tool-head">
+          <div class="tool-name">Webflow</div>
+          <div class="tool-pill">Builder</div>
+        </div>
+        <p class="tool-desc">Visual control with CMS — excellent for designer-led marketing sites.</p>
+        <div class="tool-actions"><a class="btn btn-outline" href="catalog.html#webflow">View</a></div>
+      </article>
+
+      <article class="tool-card">
+        <div class="tool-head">
+          <div class="tool-name">React</div>
+          <div class="tool-pill">Framework</div>
+        </div>
+        <p class="tool-desc">Component-based JavaScript library for fast, interactive web apps.</p>
+        <div class="tool-actions"><a class="btn btn-outline" href="catalog.html#react">View</a></div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year"></span> WebTools Hub — curated catalog for making websites</div>
+      <div class="footer-links">
+        <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="catalog.html">Catalog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
